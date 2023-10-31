@@ -1,0 +1,18 @@
+1. CREAMOS LA IMAGEN DE MYSQL
+2. HACEMOS DOCKER RUN CREANDO UN VOLUMEN EN LA CARPETA DESIGNADA
+3. LO QUE YO QUERIA CREAR ES, DESDE EL CONTEINER CON LA IMAGEN DE MYSQL, INGRESAR A SU CONSOLA, CREAR UNA BD Y TABLAS PARA LUEGO \
+EXPORTARLAS Y VERLAS 'FISICAMENTE' EN EL DIRECTORIO.
+ESTO SE HACE CON EL COMANDO
+'''
+
+#docker exec <nombre_del_contenedor> mysqldump -u root --password=12345a <nombre de base de datos> > nombrebasededatos.sql
+Mysqldump es un scrip para justamente dropear la base de datos, A DONDE?
+Luego del '>' escribimos, puede ser el directorio que uno quiera, /home/root/docker/<nombreaeleccion.sql>
+
+
+'''
+
+
+
+
+
